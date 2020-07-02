@@ -67,7 +67,7 @@ print(big5)
 personalityData = []
 #an array of bools identifying the author of the text as the target or not the target 
 identity = []
-linreg=LinearRegression()
-linreg.fit(personalityData,identity)
+logreg=LogisticRegression()
+logreg.fit(personalityData,identity)
 
 '''
